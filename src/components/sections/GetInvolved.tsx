@@ -1,6 +1,9 @@
+"use client";
 import { HiHand, HiCurrencyDollar, HiUserGroup } from "react-icons/hi";
 import Img from "../../../public/9.jpg";
+import { useRouter } from "next/navigation";
 export function GetInvolved() {
+  const router = useRouter();
   const involvementOptions = [
     {
       bgcolor: "#DBEAFE",
@@ -10,6 +13,7 @@ export function GetInvolved() {
       description:
         "Share your skills and passion with our communities. From tutoring to program coordination, there's a place for everyone.",
       buttonText: "Join Our Team",
+      link: "/join-volunteer",
     },
     {
       bgcolor: "#DCFCE7",
@@ -19,6 +23,7 @@ export function GetInvolved() {
       description:
         "Your financial support directly funds programs that transform lives. Every dollar creates measurable impact.",
       buttonText: "Make a Donation",
+      link: "/donation",
     },
     {
       bgcolor: "#F3E8FF",
@@ -28,6 +33,7 @@ export function GetInvolved() {
       description:
         "Collaborate with us on initiatives that align with your organization's mission and values.",
       buttonText: "Explore Partnership",
+      link: "/partnership-opportunities",
     },
   ];
 
@@ -73,7 +79,10 @@ export function GetInvolved() {
                 {option.description}
               </p>
 
-              <button className="btn-primary w-full">
+              <button
+                className="btn-primary w-full"
+                onClick={() => router.push(option.link)}
+              >
                 {option.buttonText}
               </button>
             </div>

@@ -6,7 +6,7 @@ import Img1 from '../../../public/5.png'
 export function Mission() {
   return (
     <section 
-      id="about" 
+      id="mission" 
       className="section-padding relative bg-cover bg-center"
       style={{
           backgroundImage: ` url(${Img.src})`

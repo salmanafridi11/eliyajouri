@@ -93,12 +93,12 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-8">
+        {/* <div className="border-t border-gray-800 pt-8">
           <p className="text-center text-gray-400">
             © 2024 Empowering Lives. Building Futures. 501(c)(3) Nonprofit
             Organization. EIN: 12-3456789. All rights reserved.
           </p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
