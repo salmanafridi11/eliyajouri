@@ -625,7 +625,7 @@ const VolunteerApplication = () => {
   };
 
   return (
-    <div className="bg-[#29573b] p-6 ">
+    <div className="bg-[#29573b] p-6  ">
       <div className="max-w-7xl mx-auto md:p-6 p-2 min-h-screen pb-16 mt-20">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Main Application Form */}
