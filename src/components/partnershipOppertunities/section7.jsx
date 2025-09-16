@@ -44,7 +44,7 @@ const Section7 = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#FCAD1D] p-4 md:p-8">
+    <div className="min-h-screen bg-[#FCAD1D] p-4 md:p-8" id='partnership'>
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">

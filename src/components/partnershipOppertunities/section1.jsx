@@ -25,13 +25,13 @@ export default function Section1() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-[#FCAD1D] rounded hover:bg-orange-600 text-white px-6 py-4 text-lg font-semibold">
-              Start Partnership
+              <a href="#partnership">Start Partnership</a>
             </button>
             <button
               variant="outline"
               className="border-white border rounded text-white hover:bg-white hover:text-emerald-700  px-6 py-4 text-lg font-semibold"
             >
-              Explore Options
+              <a href="#process">Explore Options</a>
             </button>
           </div>
         </div>

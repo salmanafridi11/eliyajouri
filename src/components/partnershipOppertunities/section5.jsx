@@ -92,6 +92,7 @@ const Section5 = () => {
 
   return (
     <section
+    id="process"
       className="relative min-h-screen overflow-hidden bg-center bg-cover"
       style={{
         backgroundImage: ` url(${Img.src})`,
@@ -100,7 +101,7 @@ const Section5 = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto max-w-7xl px-4 py-16 lg:py-20">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" >
           <h2 className="text-4xl  font-bold text-gray-800 mb-6">
             Partnership Process
           </h2>
