@@ -19,9 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
-        <Header />
-        {children}
-        <Footer />
+        {/* <Header /> */}
+        {/* {children} */}
+        {/* <Footer /> */}
+        <h1>Coming soon</h1>
       </body>
     </html>
   );
